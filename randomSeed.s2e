@@ -1,0 +1,27 @@
+{	"extensionName": "RandomSeed",
+	"description": "A Random Seed Extension for Arduino",
+	"version": "1.0",
+	"author": "Vilim Lendvaj (vilim.lendvaj@sk.t-com.hr)",
+	"homepage": "127.0.0.1",
+	"sort":0,
+	"javascriptURL":"js/randomSeed.js",
+  "firmware":"1.0",
+  "extensionPort":0,
+	"blockSpecs": [
+		[
+			"w",
+			"randomSeed( %n )",
+			"randomSeed",
+			"0",
+			{
+				"setup":"",
+				"inc":"",
+				"def":"",
+				"work":"randomSeed({0});\n",
+				"loop":""
+			}
+		]
+	],
+	"translators":{
+	}
+}
